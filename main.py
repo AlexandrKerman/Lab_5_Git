@@ -5,7 +5,7 @@ def variant ():
         "Group": 13,
         "Num": 7
     }
-    N = ((Student["Group"]-1)*10+100+Student["Num"])%187
+    N = ((Student["Group"]-1)*10+Student["Num"])%187
     print (N)
 
 def main ():
